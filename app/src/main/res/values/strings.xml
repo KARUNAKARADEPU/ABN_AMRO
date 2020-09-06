@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ReferenceAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_exit">Exit</string>
+<!--    <string name="welcome_to_abn_amro">Welcome to ABN AMRO!</string>-->
+    <string name="Balance">Balance</string>
+    <string name="click_below_button_to_check_your_account_balace">Click below button to check your account balace</string>
+    <string name="welcome_to_abn_amro">Welcome</string>
+</resources>
