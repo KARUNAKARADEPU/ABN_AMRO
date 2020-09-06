@@ -7,4 +7,4 @@ i could add few Android instrumentation tests such as pressing the button and ch
 once you dowload the project onto your machine, open it as a gradle project in Android studio and install necessary Android SDK platform/SDK tools (i used API level 28 and Android Pie as i have used a real device and emulator with same API levels).
 create an emulator with API level28 and android version 9 and first build the app by adding the configuration, then run the instrumentation test MainActivityTest
 
-or if you want to run from terminal, use gradle connectedCheck command.
+or if you want to run from terminal, use 'gradle connectedCheck' command.
