@@ -1,18 +1,10 @@
 # Test assignment
 
-We are looking for Automation Engineers that have the mindset "only the sky is the limit" and "automation doesn't stop at testing, it's just a beginning!" ;)
+Please note i have added a minimal functionality to the app hence it will shows few menuitems and a button, then on clicking the button shows the balance. balance is a random value between 1000-10000 with prefixed EUR symbol. and used Android studio and Kotlin for doing so.
 
-The purpose of this test assignment is to assess the applicant's automation skills, allowing him/her to show the best they can do and how fast they can learn.
-It is an open assignment. There is no the right answer and there is no end goal other than proving yourself. Surprise us!
+i could add few Android instrumentation tests such as pressing the button and checking the value which displays on the results view of the screen. changed the snackbar text and added a test to click on the mail icon, and verifying the message using Kotlin and Espresso framework.
 
-Make sure that you give detailed comments or descriptions of your tests.
-When the assignment is complete, please push your solution to Github(Gitlab) and send us the link to hr.grid.adi@nl.abnamro.com.
-If you have any questions, please contact Lotte Grundel at <lotte.grundel@nl.abnamro.com>.
+once you dowload the project onto your machine, open it as a gradle project in Android studio and install necessary Android SDK platform/SDK tools (i used API level 28 and Android Pie as i have used a real device and emulator with same API levels).
+create an emulator with API level28 and android version 9 and first build the app by adding the configuration, then run the instrumentation test MainActivityTest
 
-Good luck.
-
-PS. We don't expect you to spend weeks (and sleepless nights) on doing it. Lets see how far you can get in 6-10 hours. We want to see how you approach and solve problems.
-
-PSPS. Please use mobile native tools. (Tests written on Java are accepted too)
-
-
+or if you want to run from terminal, use gradle connectedCheck command.
